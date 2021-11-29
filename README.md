@@ -1,6 +1,5 @@
 SQL = Structured Query Language
 NoSQL = Not Only SQL
-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
 
 <!-- Image upload packages -->
 
@@ -10,3 +9,10 @@ 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
 <!-- Email sending packages -->
 
 1.sendgrid
+
+<!-- env -->
+
+DB_CONNECT
+MODE
+SEND_GRID_API_KEY
+JWT_SECRET
