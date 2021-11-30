@@ -26,7 +26,6 @@ router.post('/users', validateRequest(validationSchema), async (req, res) => {
       .status(201)
       .send({ status: 'Success creating the  user ', newUser, token })
   } catch (error) {
-    debug(error)
     res.status(500).send({ error: error.message })
   }
 })

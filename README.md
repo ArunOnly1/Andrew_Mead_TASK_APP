@@ -26,3 +26,8 @@ JWT_SECRET
 5.Collaborating
 6.Profiling
 7.Peace of mind
+
+<!-- Configuring jest for Task APP -->
+
+1.Add test script on package.json with watch and environment cmd 2. Create different environment variable file for test and make db connection ready for test by adding -test
+3.add testEnvironment:node in package.json
